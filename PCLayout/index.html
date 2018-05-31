@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta meta charset="UTF-8">
+    <title>Media-WebLayout</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">ここにロゴがありました</a>
+        <a href="#" class="lang-switcher lang-switcher-cn">CN</a>
+        <a href="#" class="lang-switcher lang-switcher-en">EN</a>
+        <!-- 当初は多言語化する予定でした -->
+    </header>
+    <main>
+        <div class="container">
+            <nav>
+                <div class="nav-wrapper wrapper">
+                    <div class="notice">
+                        <p>お知らせ</p>
+                        <div class="notice-text">
+                            <p>自然災害メディア「ここにサービス名がありました」リリース開始</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section id="main-contents">
+                <div class="main-contents-wrapper wrapper">
+                    <div class="top-news">
+                        最新ニュース
+                        <ul>
+                            <li>
+                                <div class="new">
+                                    <p>new</p>
+                                </div>
+                                <a href="#">ここに最新記事を載せます</a>
+                            </li>
+                            <li>
+                                <div class="new">
+                                    <p>new</p>
+                                </div>
+                                <a href="#">下に今ある記事を使って例を載せます</a></li>
+                            <li>
+                                <div class="new">
+                                    <p>new</p>
+                                </div>
+                                <a href="#">ハワイ全土が驚愕！　マグマの海に</a></li>
+                            <li><a href="#">投稿日時順に並べるつもりですが、WordPressで実装されるまでは</a></li>
+                            <li><a href="#">運用担当の奥野が日時を目視確認して手動で載せていきます。</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-news-img">
+                        ここに記事イメージがありました
+                        <p>トップニュースサンプル</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </section>
+            <aside id="sub-contents">
+                <div class="sub-contents-wrapper wrapper">
+                    <div class="ad">
+                        ここに広告を配置します
+                    </div>
+                    <div class="ranking">
+                        <h4>記事ランキング</h4>
+                        <ul>
+                            <div class="ranking-wrapper">
+                                <li class="rank1">
+                                    <span>1</span>
+                                    <a href="#">ここにランクインした記事名を載せます</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li class="rank2">
+                                    <span>2</span>
+                                    <a href="#">長めの記事名はこんな風に途中で省略...</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li class="rank3">
+                                    <span>3</span>
+                                    <a href="#">4位に今ある記事を使って例を載せます</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li>
+                                    <span>4</span>
+                                    <a href="#">ハワイ全土が驚愕！　マグマの海に</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li>
+                                    <span>5</span>
+                                    <a href="#">ランキングはGoogleアナリティクスで</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li>
+                                    <span>6</span>
+                                    <a href="#">PV数を目視確認して手動更新します</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li>
+                                    <span>7</span>
+                                    <a href="#">ただしWordPressが完成したら</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li>
+                                    <span>8</span>
+                                    <a href="#">WPの機能を用いて自動化します</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li>
+                                    <span>9</span>
+                                    <a href="#">なので、手動でやるのは期間限定です</a>
+                                </li>
+                            </div>
+                            <div class="ranking-wrapper">
+                                <li class="rank10">
+                                    <span>10</span>
+                                    <a href="#">運用担当は奥野です</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="search-bar">
+                        <!--========== #srchBox ==========-->
+                        <div id="srchBox" class="watermark">
+                            <style type="text/css">
+                            #srchBox
+                            {
+                            width:96%;
+                            _width:146px;
+                            height: 58px;
+                            margin-bottom:10px;
+                            background-color:#C6CCFF;
+                            border-style:solid;
+                            border-width:1px;
+                            border-color:#FFFFFF;
+                            color:#000000;
+                            text-align:center;
+                            }
+                            #srchBox *
+                            {
+                            margin:0;
+                            padding:0;
+                            font-size:13px;
+                            *font-size:small;
+                            *font:x-small;
+                            }
+                            #srchBox a img
+                            {
+                            border:none;
+                            }
+                            #srchBox #srch
+                            {
+                            padding:6px;
+                            }
+                            #srchBox #srchInput
+                            {
+                            width:98%;
+                            _width:130px;
+                            }
+                            #srchBox #srchBtn
+                            {
+                            width:115px;
+                            }
+                            *html #srchBox #srchBtn
+                            {
+                            padding-top:2px;
+                            }
+                            *:first-child+html #srchBox #srchBtn
+                            {
+                            padding-top:2px;
+                            }
+                            #srchBox ul
+                            {
+                            margin-top:6px;
+                            margin-bottom:6px;
+                            text-align:left;
+                            }
+                            #srchBox li
+                            {
+                            list-style-type:none;
+                            display:block;
+                            }
+                            #srchBox li input
+                            {
+                            zoom:1;
+                            margin-right:2px;
+                            _margin:-4px 0 -4px -4px;
+                            vertical-align:middle;
+                            border:0;
+                            }
+                            *:+html #srchBox li input
+                            {
+                            margin:-4px 0 -4px -4px;
+                            }
+                            #srchBox #srchLogo
+                            {
+                            margin:6px 6px 6px 0;
+                            text-align:center;
+                            }
+                            #srchBox #srchLogo a
+                            {
+                            color:#666666;
+                            text-decoration:none;
+                            font-size:85%;
+                            }
+                            #srchBox #srchLogo a:hover
+                            {
+                            text-decoration:underline;
+                            }
+                            #srchBox.watermark
+                            {
+                            padding-bottom: 6px;
+                            }
+                            #srchBox.watermark #srchInput
+                            {
+                            padding:1px 1px 2px 1px;
+                            border:1px solid #a5acb2;
+                            background: #fff url(https://s.yimg.jp/images/search/customsearch/yjlogo/yjlogo_type4.gif) center center no-repeat;
+                            }
+                            #srchBox.watermark #srchInput.nomark
+                            {
+                            background: #fff;
+                            }
+                            #srchBox.watermark #srchLogo
+                            {
+                            display: none;
+                            }
+
+                            </style>
+                            <form action="https://custom.search.yahoo.co.jp/search" method="get" id="srch">
+                            <p id="srchForm">
+                            <input type="text" name="p" id="srchInput"><input type="submit" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();">
+                            <input type="hidden" id="fr" name="fr" value="cse">
+                            <input type="hidden" id="ei" name="ei" value="UTF-8">
+                            <input type="hidden" id="csid" name="csid" value="e9JLHidQZN.SMl3gH3ejfwS74h5jNFQ-">
+                            </p>
+                            <input type="hidden" name="vs" value="the-earth-sky-ward.com" id="yjInsite">
+                            </form>
+                            <img src="https://custom.search.yahoo.co.jp/images/window/e9JLHidQZN.SMl3gH3ejfwS74h5jNFQ-.gif">
+                        </div>
+                        <script type="text/javascript">
+                            (function() {
+                                var sb = document.getElementById('srchBox');
+                                if (sb && sb.className == 'watermark') {
+                                    var si = document.getElementById('srchInput');
+                                    var f = function() { si.className = 'nomark'; };
+                                    var b = function() {
+                                        if (si.value == '') {
+                                            si.className = '';
+                                        }
+                                    };
+                                    si.onfocus = f;
+                                    si.onblur = b;
+                                    if (!/[&?]p=[^&]/.test(location.search)) {
+                                        b();
+                                    } else {
+                                        f();
+                                    }
+                                }
+                            })();
+                        </script>
+                        <!--========== /#srchBox ==========-->
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <div class="clear"></div>
+    </main>
+    <footer>
+        <p class="footer-copy">© Copyright 2018 The Earth. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
